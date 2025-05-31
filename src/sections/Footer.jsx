@@ -5,13 +5,20 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="flex flex-col justify-center">
-          <p>Terms & Conditions</p>
+          <a target="_blank" href="https://aadi.vercel.app/">
+            See More of Our Works
+          </a>
         </div>
         <div className="socials">
           {socialImgs.map((socialImg, index) => (
-            <div key={index} className="icon">
+            <a
+              target="_blank"
+              href={socialImg.url}
+              key={socialImg.url}
+              className="icon"
+            >
               <img src={socialImg.imgPath} alt="social icon" />
-            </div>
+            </a>
           ))}
         </div>
         <div className="flex flex-col justify-center">

@@ -114,27 +114,27 @@ const techStackImgs = [
 
 const techStackIcons = [
   {
-    name: "React Developer",
-    modelPath: "/models/react_logo-transformed.glb",
-    scale: 1,
+    name: "Oracle Database",
+    modelPath: "/models/oracle.glb",
+    scale: 2.5,
     rotation: [0, 0, 0],
   },
   {
-    name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
-    scale: 0.8,
+    name: "C# Development",
+    modelPath: "/models/C-sharp.glb",
+    scale: 0.09,
     rotation: [0, 0, 0],
   },
   {
-    name: "Backend Developer",
-    modelPath: "/models/node-transformed.glb",
-    scale: 5,
-    rotation: [0, -Math.PI / 2, 0],
+    name: "Azure Cloud Computing",
+    modelPath: "/models/azure.glb",
+    scale: 2.5,
+    rotation: [0, -Math.PI, 0],
   },
   {
-    name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
-    scale: 0.05,
+    name: "Reporting Tools",
+    modelPath: "/models/Excel.glb",
+    scale: 1.8,
     rotation: [0, 0, 0],
   },
   {
@@ -204,42 +204,42 @@ const testimonials = [
     name: "Esther Howard",
     mentions: "@estherhoward",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "I can’t say enough good things about AadiSoft. They were able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
     imgPath: "/images/client1.png",
   },
   {
     name: "Wade Warren",
     mentions: "@wadewarren",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+      "Working with AadiSoft was a fantastic experience. They transformed our outdated website into a modern, user-friendly platform. Their attention to detail and commitment to quality are unmatched. Highly recommend them for any web dev projects.",
     imgPath: "/images/client3.png",
   },
   {
     name: "Guy Hawkins",
     mentions: "@guyhawkins",
     review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with AadiSoft was an absolute pleasure. Their professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Their enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, AadiSoft is the ideal choice.",
     imgPath: "/images/client2.png",
   },
   {
     name: "Marvin McKinney",
     mentions: "@marvinmckinney",
     review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+      "AadiSoft's Team was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
     imgPath: "/images/client5.png",
   },
   {
     name: "Floyd Miles",
     mentions: "@floydmiles",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+      "AadiSoft's expertise in web development is truly impressive. They delivered a robust and scalable solution for our transportation app, and our work have significantly improved since the launch. They are a true professional!",
     imgPath: "/images/client4.png",
   },
   {
     name: "Albert Flores",
     mentions: "@albertflores",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+      "AadiSoft was a pleasure to work with. They understood our requirements perfectly and delivered a solution that exceeded our expectations. Their skills in both frontend and backend dev are top-notch.",
     imgPath: "/images/client6.png",
   },
 ];
@@ -247,18 +247,22 @@ const testimonials = [
 const socialImgs = [
   {
     name: "insta",
+    url: "https://www.instagram.com/aadi__poddar",
     imgPath: "/images/insta.png",
   },
   {
     name: "fb",
+    url: "https://www.facebook.com/aadipoddarmail",
     imgPath: "/images/fb.png",
   },
   {
     name: "x",
+    url: "https://x.com/PoddarAadi",
     imgPath: "/images/x.png",
   },
   {
     name: "linkedin",
+    url: "https://www.linkedin.com/in/aadi-poddar-b90220222",
     imgPath: "/images/linkedin.png",
   },
 ];
